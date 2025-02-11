@@ -35,17 +35,23 @@ hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg.
 
 # Experiences
 author_work_experiences:
-            - company_name: Google
-              company_logo: google.png
-              company_url: https://google.com
-              designation: Software Engineer
-              description: Worked on various Google Products
+            - company_name: ISE Lab
+              company_logo: ise-lab.png
+              company_url: http://ise.ce.sharif.ir/
+              designation: Research Assistant
+              description: ⋄ We researched ways of improving state-of-the-art automatic code documentation approaches via augmentation methods. the target approaches were RAG and Code2Seq, and we were improving them by augmenting code metrics. We developed all the code bases for our experiment, and I was mainly involved during the whole research. ⋄ We developed the Code2Seq approach using Pytorch, and we used so many open-source LLMs, e.g. Lamma and Code-gemma, for RAG.
               visibility: true
-            - company_name: Microsoft
-              company_logo: microsoft.png
-              company_url: https://microsoft.com
-              designation: Azure Developer
-              description: Worked on various Azure Cloud Products
+            - company_name: GymTime
+              company_logo: gymtime.jpg
+              company_url: -
+              designation: Co-Founder
+              description: ⋄ GymTime startup was a gym reservation platform I had founded with my college colleagues, and besides software development, we did strategic planning, pivoting, and marketing activities together.
+              visibility: true
+            - company_name: Oxydev
+              company_logo: oxydev.jfif
+              company_url: -
+              designation: Software Engineer
+              description: ⋄ I was involved in the startup of Histopia, an MMORPG game on the web platform. One of our rivals was the Sandbox game. I had not developed a game before and I did not know anything about computer graphics. However, I did not give up the chance because I had a passion of it. Therefore, I told them I try to develop some prototype to see if I can make it. The result was good, and I learned a lot about so many aspects of game development during the project. I used so many capabilities of web development I did not know existed. And although we lost to our rivals, it was worth it for me.
               visibility: true
 
 # Education
