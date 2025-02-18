@@ -105,11 +105,11 @@ linkedin_username: sepehrkianian
 
 # contact form - (choose formspress or getform)
 # getform_endpoint: 83b703c3-9e47-4df4-ac55-e24d7eb02abc
-# formspree_email: johndoe@gmail.com
+# formspree_email: johFdoe@gmail.com
 
 # releases - widget can be (sidebar, modal or embed)
-olvy_organization: devlopr
-olvy_widget_type: sidebar
+# olvy_organization: devlopr
+# olvy_widget_type: sidebar
 
 # syntax highlighter
 markdown: kramdown
