@@ -34,6 +34,7 @@ typewrite-text: Welcome to my Page!
 hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
+show_author_work_experiences: true
 author_work_experiences:
             - company_name: ISE Lab
               company_logo: ise-lab.png
@@ -55,6 +56,7 @@ author_work_experiences:
               visibility: true
 
 # Education
+show_author_education_details: true
 author_education_details:
               - college_logo: aalto_university_logo.jfif
                 college_name: Aalto University
@@ -70,17 +72,13 @@ author_education_details:
                 visibility: true
 
 # Projects
+show_author_project_details: false
 author_project_details:
-              - project_thumbnail: gamershub.png
-                project_title: Gamers Hub
-                project_description: A Platform built for Gamers and Game Devs
-                project_url: https://gamershub.in
-                visibility: true
-              - project_thumbnail: hack4r.PNG
-                project_title: Hack4r
-                project_description: A Platform built for Hackers and Penetration Testers
-                project_url: https://hack4r.com
-                visibility: true
+              # - project_thumbnail: gamershub.png
+              #   project_title: Gamers Hub
+              #   project_description: A Platform built for Gamers and Game Devs
+              #   project_url: https://gamershub.in
+              #   visibility: true
 
 # social links
 github_username:  sepehrkianian09
@@ -100,14 +98,14 @@ linkedin_username: sepehrkianian
 # hyvor_talk_website_id: 476
 
 # wakatime username (coding activity)
-wakatime_username: sujaykundu777
+# wakatime_username: sujaykundu777
 
 # mailchimp embedded form url (newsletter):
-mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
+# mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
 
 # contact form - (choose formspress or getform)
 # getform_endpoint: 83b703c3-9e47-4df4-ac55-e24d7eb02abc
-formspree_email: johndoe@gmail.com
+# formspree_email: johndoe@gmail.com
 
 # releases - widget can be (sidebar, modal or embed)
 olvy_organization: devlopr
@@ -119,9 +117,6 @@ highlighter: rouge
 permalink: pretty
 
 # Choose what to show ( can be true or false)
-show_author_work_experiences: true
-show_author_education_details: true
-show_author_project_details: true
 
 # pagination of posts
 paginate: 4
