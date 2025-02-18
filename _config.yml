@@ -1,10 +1,10 @@
-title: devlopr
-subtitle: A Portfolio Jekyll Theme Built for Developers
+title: The Work of Sepehr
+subtitle: Sepehr's Portfolio
 description: >- # this means to ignore newlines until "baseurl:"
-  devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
+  Welcome to my digital portfolio. In this website, you will find a collection of my best work, showcasing my Software Engineering skills. I hope you enjoy browsing through my projects.
 
-url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
-baseurl: "" # the subpath of your site, e.g. /blog
+url: https://sepehrkianian09.github.io" # the base hostname & protocol for your site, e.g. https://example.github.io
+baseurl: "/" # the subpath of your site, e.g. /blog
 
 # Navigation
 urls:
@@ -14,10 +14,10 @@ urls:
       url: /about
     - text: Blog
       url: /blog
-    - text: Gallery
-      url: /gallery
-    - text: Shop
-      url : /shop
+    # - text: Gallery
+    #   url: /gallery
+    # - text: Shop
+    #   url : /shop
     - text: Contact
       url : /contact
 
