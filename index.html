@@ -1,1 +1,7 @@
 <div>Hello, this is Sepehr's website. I hope you enjoy my work.</div>
+
+{% for post in site.posts %}
+  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  <p>{{ post.date | date: "%B %d, %Y" }}</p>
+  <p>{{ post.excerpt }}</p>
+{% endfor %}
